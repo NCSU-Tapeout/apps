@@ -9,7 +9,7 @@ If your environment does not support the module load command, you will need to:
 
 You will need to modify the lua files for each of the programs you are using to point to your license server, and installation directory of the software.
 
-For example, the [apps/modules/ic-local/23.10.lua](../blob/main/apps/modules/ic-local/23.10.lua) for launching virtuoso:
+For example, the [apps/modules/ic-local/23.10.lua](../main/apps/modules/ic-local/23.10.lua) for launching virtuoso:
 ```
 --initial vars + license
 setenv("CDS_LIC_FILE","2101@ece-lic-11.ece.ncsu.edu")
