@@ -1,5 +1,5 @@
 # LMOD Modules
-The setup of the required software uses the lmod package (module load). If your environment doesn't support lmod modules, please see the main repository for how to install the conda environment to support it.
+The setup of the required software uses the lmod package (module load). If your environment doesn't support lmod modules, please see the main repository for how to [install the conda environment](../../../Tapeout-Simple#no-lmod-in-user-environment) to support it.
 
 ## NCSU 
 The environment automatically supports modules, you shouldn't need to modify the modules.
