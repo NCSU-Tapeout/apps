@@ -22,12 +22,14 @@ Application managed by WolfTech, ecehelp@ncsu.edu
 
 --initial vars + license
 setenv("CDS_LIC_FILE","2101@ece-lic-11.ece.ncsu.edu")
+local base = "/mnt/apps/public/COE/cadence_apps"
 
 --setup path
-prepend_path("PATH","~/apps/cadence_apps/SPECTRE231/tools/bin")
-prepend_path("PATH","~/apps/cadence_apps/SPECTRE231/bin")
-prepend_path("PATH","~/apps/cadence_apps/SPECTRE231/tools/mdl/bin")
+
+prepend_path("PATH",pathJoin(base, "SPECTRE231/tools/bin"))
+prepend_path("PATH",pathJoin(base, "SPECTRE231/bin"))
+prepend_path("PATH",pathJoin(base, "SPECTRE231/tools/mdl/bin"))
 
 --application variables
 setenv("CDS_AUTO_64BIT","ALL")
-setenv("MMSIMHOME","~/apps/cadence_apps/SPECTRE231")
+setenv("MMSIMHOME",pathJoin(base, "SPECTRE231"))

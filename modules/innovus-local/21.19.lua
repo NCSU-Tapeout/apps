@@ -21,8 +21,9 @@ Application managed by WolfTech, ecehelp@ncsu.edu
 
 --initial vars + license
 setenv("CDS_LIC_FILE","2101@ece-lic-11.ece.ncsu.edu")
+local base = "/mnt/apps/public/COE/cadence_apps"
 
 --setup path
-prepend_path("PATH","/mnt/apps/public/COE/cadence_apps/INNOVUS2119/tools/bin")
+prepend_path("PATH",pathJoin(base, "INNOVUS2119/tools/bin"))
 
 --application variables

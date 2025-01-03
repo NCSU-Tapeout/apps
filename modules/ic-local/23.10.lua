@@ -23,7 +23,7 @@ Application managed by WolfTech, ecehelp@ncsu.edu
 
 --initial vars + license
 setenv("CDS_LIC_FILE","2101@ece-lic-11.ece.ncsu.edu")
-local base = "~/apps/cadence_apps/"
+local base = "/mnt/apps/public/COE/cadence_apps"
 
 --setup path
 prepend_path("PATH", pathJoin(base, "IC231/tools/bin"))
